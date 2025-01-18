@@ -4,7 +4,10 @@ document.body.style.cssText = `
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    font-family: 'Inter'
+    font-family: 'Inter';
+    display: grid;
+    place-items: center;
+    height: 100vh;
 `;
 
 const card = document.createElement("div");
@@ -57,6 +60,8 @@ document.querySelector("#cardContainer").style.cssText = `
     text-align: center;
     padding: 40px;
     border-radius: 8px; 
+    margin-top: auto;
+    margin-bottom: auto;
 `;
 
 document.getElementsByTagName("img")[0].style.cssText = `
